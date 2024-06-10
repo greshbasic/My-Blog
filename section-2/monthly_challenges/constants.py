@@ -25,7 +25,5 @@ MONTH_TO_CHALLENGE_MAP = {
     "september": "Learn Django for at least 20 minutes every day!",
     "october": "Eat no meat for the entire month!",
     "november": "Walk for at least 20 minutes every day!",
-    "december": "Learn Django for at least 20 minutes every day!",
+    "december": None,
 }
-
-NO_MONTH_MSG = "This month is not supported! Please try again."
