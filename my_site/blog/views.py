@@ -60,6 +60,19 @@ all_posts = [
                     being considered not only the strongest form of Haki, but the strongest ability in the One Piece world.
                    """
     },
+    {
+        "slug": "roger",
+        "image": "roger.png",
+        "author": "Gresh",
+        "date": date(2024, 6, 12),
+        "title": "Gol D. Roger's Final Words",
+        "excerpt": "Roger's last words changed the world of One Piece forever, marking the beginning of the great pirate era!",
+        "content": """
+                    Narrator: Wealth, fame, power… Gold Roger, the King of the Pirates, attained this and everything else the world had to offer. And his dying words drove countless souls to the seas.
+                    Gold Roger: You want my treasure? You can have it! I left everything I gathered together in one place! Now you just have to find it!
+                    Narrator: These words lured men to the Grand Line in pursuit of dreams greater than they've ever dared to imagine! This is the time known as 'The Great Pirate Era'!
+                   """
+    },
 ]
 
 
