@@ -55,7 +55,7 @@ body {
 
 #summary time {
   font-weight: bold;
-} 
+}
 
 main {
   width: 90%;
@@ -68,8 +68,9 @@ main {
 }
 
 .tag {
-  background-color: white;
-  color: #390281;
+  background-color: lavender;
+  color: #5706c0;
   padding: 0.5rem 1rem;
-  border-radius: 8px;
+  border-radius: 12px;
+  margin-right: 0.5rem;
 }
