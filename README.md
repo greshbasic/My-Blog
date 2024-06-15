@@ -9,7 +9,7 @@ Just a classic, small Django project.
   Home Screen: 
   
   
-  ![Screenshot 2024-06-15 185544](https://github.com/greshbasic/My-Blog/assets/100721569/fa135fcd-be15-4a81-8bcb-40ebd9ba0fd7)
+  ![Screenshot 2024-06-15 185847](https://github.com/greshbasic/My-Blog/assets/100721569/b761938e-a2be-4767-bf48-120094047f2c)
   </li>
 
 
