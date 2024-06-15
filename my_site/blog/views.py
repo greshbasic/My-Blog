@@ -1,6 +1,10 @@
 from django.shortcuts import render, get_object_or_404
+from django.views import View
+from django.http import HttpResponseRedirect
+from django.urls import reverse
 
 from blog.models import Post
+from .forms import CommentForm
 
 all_posts = Post.objects.all().order_by("-date")
 
@@ -12,14 +16,32 @@ def starting_page(request):
     })
 
 def posts(request):
-
     return render(request, "blog/all-posts.html", {
         "all_posts": all_posts,
     })
 
-def post_detail(request, slug):        
-    identified_post = get_object_or_404(Post, slug=slug)
-    return render(request, "blog/post-detail.html", {
-        "post": identified_post,
-        "post_tags": identified_post.tags.all()
-    })
+class SinglePostView(View):
+    def get(self, request, slug):
+        post = get_object_or_404(Post, slug=slug)
+        context = {
+            "post": post,
+            "tags": post.tags.all(),
+            "comment_form": CommentForm(),
+        }
+        return render(request, "blog/post-detail.html", context)
+
+    def post(self, request, slug):
+        comment_form = CommentForm(request.POST)
+        post = get_object_or_404(Post, slug=slug)
+        if comment_form.is_valid():
+            comment = comment_form.save(commit=False)
+            comment.post = post
+            comment.save()
+            return HttpResponseRedirect(reverse("post-detail-page", args=[slug]))
+
+        context = {
+            "post": post,
+            "tags": post.tags.all(),
+            "comment_form": comment_form,
+        }
+        return render(request, "blog/post-detail.html", context)
