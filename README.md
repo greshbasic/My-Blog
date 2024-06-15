@@ -20,6 +20,6 @@ Just a classic, small Django project.
   <li>
   Comment Section:
   
-  ![Screenshot 2024-06-15 170639](https://github.com/greshbasic/My-Blog/assets/100721569/3aed55f3-0068-4736-b6be-0f4c88aa763c)
+  ![Screenshot 2024-06-15 182132](https://github.com/greshbasic/My-Blog/assets/100721569/9c98689e-50d3-42dd-8956-2b36e89ebac0)
   </li>
 </ul>
