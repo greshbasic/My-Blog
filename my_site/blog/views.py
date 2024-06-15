@@ -7,6 +7,13 @@ from blog.models import Post
 from .forms import CommentForm
 
 all_posts = Post.objects.all().order_by("-date")
+featured_posts = []
+
+for post in all_posts:
+    current_tags = post.tags.all()
+    if current_tags.filter(caption="Featured"):
+        featured_posts.append(post)
+    
 
 # Create your views here.
 def starting_page(request):
@@ -18,6 +25,7 @@ def starting_page(request):
 def posts(request):
     return render(request, "blog/all-posts.html", {
         "all_posts": all_posts,
+        "featured_posts": featured_posts
     })
 
 class SinglePostView(View):

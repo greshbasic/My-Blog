@@ -12,6 +12,13 @@ All Posts
 
 {% block content %}
 <section id="all-posts">
+    <h2> Featured Posts </h2>
+    <ul>
+        {% for post in featured_posts %}
+            {% include "blog/includes/post.html" %}
+        {% endfor %}
+    </ul>
+    <br><hr>
     <h2> All Posts </h2>
     <ul>
         {% for post in all_posts %}
