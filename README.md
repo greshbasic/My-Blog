@@ -8,13 +8,15 @@ Just a classic, small Django project.
   <li>
   Home Screen: 
   
-  ![Screenshot 2024-06-15 170504](https://github.com/greshbasic/My-Blog/assets/100721569/05f3ff7e-5c99-4f9c-a0ca-0140ca0e307d)
+  
+  ![Screenshot 2024-06-15 185544](https://github.com/greshbasic/My-Blog/assets/100721569/fa135fcd-be15-4a81-8bcb-40ebd9ba0fd7)
   </li>
+
 
   <li>
   All Posts Page:
-  
-  ![Screenshot 2024-06-15 170650](https://github.com/greshbasic/My-Blog/assets/100721569/de3965a5-c600-4c86-8c96-b6a497bc50d3)
+    
+  ![Screenshot 2024-06-15 185421](https://github.com/greshbasic/My-Blog/assets/100721569/f5662577-e5b2-49ae-af44-9ece162a0806)
   </li>
 
   <li>
