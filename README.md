@@ -1,6 +1,5 @@
 <h3> Unfortunately yes, this project is One Piece themed too - StrawBot was just the beginning </h3>
 
-Just a classic, small Django project.
 <h2> How to Run: </h2>
 <ol>
   <li>After cloning, navigate to <code>/my_site</code></li>
