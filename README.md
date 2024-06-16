@@ -6,7 +6,7 @@
   <li>Run <code>python3 manage.py runserver</code></li>
   <li>Head to <a href="http://localhost:8000/">localhost:8000</a></li>
 </ol>
-
+<hr>
 <ul>
   <li>
   Home Screen: 
