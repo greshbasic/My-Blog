@@ -11,7 +11,7 @@
   <li>
   Home Screen: 
   
-  ![Screenshot 2024-06-15 193521](https://github.com/greshbasic/My-Blog/assets/100721569/fc0a9652-8988-4144-8399-cf5ac22dac48)
+  ![Screenshot 2024-06-15 200549](https://github.com/greshbasic/My-Blog/assets/100721569/5643c1bf-656b-413d-94ed-b4579368c017)
   </li>
 
 
