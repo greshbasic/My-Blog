@@ -10,7 +10,6 @@ class PostAdmin(admin.ModelAdmin):
 class CommentAdmin(admin.ModelAdmin):
     list_display = ('user_name', 'post')
 
-# Register your models here.
 admin.site.register(Tag)
 admin.site.register(Author)
 admin.site.register(Post, PostAdmin)
