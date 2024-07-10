@@ -14,8 +14,6 @@ for post in all_posts:
     if current_tags.filter(caption="Featured"):
         featured_posts.append(post)
     
-
-# Create your views here.
 def starting_page(request):
     latest_posts = Post.objects.all().order_by("-date")[:3] 
     return render(request, "blog/index.html", {
